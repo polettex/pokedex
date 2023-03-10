@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 body {
-	background-image: url("img/kanto-map.jpeg");
+	background-color: #f3aaaa;
 	background-size: 100%;
 	font-family: 'VT323', monospace;
 }
@@ -16,21 +16,26 @@ h1 {
     border-radius: 15px;
 }
 
-ul {
+h2 {
+    margin: 0;
+    text-align: left;
+	color: #000000;
+    font-size: 30px;
+    border-radius: 15px;
+}
+
+table {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 	justify-content: center;
 }
 
-li {
-	width: 200px;
+tr {
+	width: 400px;
 	margin-bottom: 10px;
-	background-color: #f3aaaa;
-	box-shadow: 0px 0px 5px #666666;
 	text-align: center;
-    font-size: xx-large;
-    border-radius: 7.5px;
+    font-size: 23px;
 }
 
 img {
@@ -52,10 +57,22 @@ img {
     }
 }
 
-a {
-    font-weight: bold;
+p {
+    font-weight: normal;
     margin-top: 5px;
     margin-bottom: 5px;
     color: black;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+a {
+	width: 100%;
+    margin: 0;
+    text-align: center;
+	color: #FFFFFF;
+	background-color: #000000b0;
+    font-size: 30px;
+    border-radius: 7.5px;
     text-decoration: none;
 }
